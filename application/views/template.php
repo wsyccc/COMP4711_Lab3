@@ -5,14 +5,13 @@
 		<title>{pagetitle}</title>
         <meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link rel="stylesheet" type="text/css" href="/assets/css/default.css"/>
         <link rel="stylesheet" type="text/css" media="all" href="/css/reset.css" />
         <link rel="stylesheet" type="text/css" media="all" href="/css/text.css" />
         <link rel="stylesheet" type="text/css" media="all" href="/css/style.css" />
         <link rel="stylesheet" type="text/css" media="all" href="/css/lightbox.css" />
 	</head>
 	<body>
-        <div id="container">
+        <div id="wrapper">
         	<div id="header">
                 <span class="myhead">Simple Image Gallery</span>
                 <span class="mynav">
@@ -26,7 +25,7 @@
             <div class="alone"></div>
 
 			{content}
-			<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. 
+			<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds.
 				{ci_version}</p>
 
 			<div id="footer" class="span12">
@@ -34,7 +33,7 @@
             </div>
         </div>
 
-        <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script> 
-        <script type="text/javascript" src="js/lightbox.min.js"></script> 
+        <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="js/lightbox.min.js"></script>
 	</body>
 </html>
