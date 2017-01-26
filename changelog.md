@@ -13,7 +13,8 @@ Change Log Order | Top to bottom (Old to new).
 Version | Description  | Editor
 --- | --- | ---
 *v1.0* | Transform the project to CodeIgniter project. | `Wayne Wang`
-
+*v1.1* | Master page implemented to remove redundant code. | `Jason Lee`
+*v1.2* | Convert a basic CodeIgniter into a good one. | `Wayne Wang`
 
 
 
