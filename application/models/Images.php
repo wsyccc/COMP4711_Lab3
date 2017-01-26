@@ -5,7 +5,7 @@
  * Date: 2017-01-25
  * Time: 3:10 PM
  */
-class Images extends CI_Model{
+class Images extends CI_Model {
     function __construct()
     {
         parent::__construct();
